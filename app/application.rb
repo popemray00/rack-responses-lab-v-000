@@ -5,7 +5,7 @@ class Application
 
     if DateTime.now < 12
       resp.write "Good Morning"
-    else
+    elsif DateTime.now > 12
       resp.write "Good Afternoon"
     end
 
